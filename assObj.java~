@@ -1,0 +1,12 @@
+class StringTest {
+	public static void main(String[] args) {
+		String x = "Java";
+		String y = x;
+		System.out.println("y String = "+y);
+		System.out.println("X string = "+x);
+		y = y + "Bean";
+		System.out.println("Y String = "+y );
+		System.out.println("X String = "+x );
+	
+	}
+}

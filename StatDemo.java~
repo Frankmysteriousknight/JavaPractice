@@ -1,0 +1,27 @@
+/*
+ * Here we will	use the statica keyword to instantiate an object or the method without calling the class object. The static keyword is used to instantiate the methods in the class without calling the objects.
+ * We can directly call a static method by calling the class method
+ * by giving the class name
+ * we cannot use a non static variable in a static block, you can call the class name and call the variable or the method i.e is static
+ */
+
+class Abc
+{
+	static int i;
+	public static void show()
+	{
+		System.out.println("Hello There");
+	}
+}
+
+class StaticDemo
+{
+	public static void main(String args[])
+	{
+		Abc.show();
+		Abc.i=26;
+		System.out.println(Abc.i);
+
+	}
+
+}
